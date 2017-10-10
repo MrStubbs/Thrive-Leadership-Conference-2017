@@ -66,6 +66,7 @@ body {
 }
 
 #mainNav {
+    height: 5em;
   background-color: #222222; }
   #mainNav .navbar-toggler {
     font-size: 12px;
@@ -87,7 +88,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: #000;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -115,12 +116,15 @@ body {
       background-color: #222222; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0; } }
+        padding: 12px 0; }
+    .navbar-brand img{
+        src:url(/img/logos/Thrive_Logo_Grey-02.png)
+    }}
 
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg2.jpg");
+  background-image: url("../img/header-bg3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -132,12 +136,14 @@ header.masthead {
     padding-top: 150px;
     padding-bottom: 100px; }
     header.masthead .intro-text .intro-lead-in {
+     color: #000;
       font-size: 22px;
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
       font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .intro-text .intro-heading {
+     color: #000;
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
