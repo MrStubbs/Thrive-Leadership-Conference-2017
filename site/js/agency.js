@@ -30,8 +30,10 @@
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
+      $("#logo-img").attr("src", "/img/logos/Thrive_Leaders_Blue.png");
     } else {
       $("#mainNav").removeClass("navbar-shrink");
+      $("#logo-img").attr("src", "/img/logos/Thrive_Leaders_White.png");
     }
   });
 
