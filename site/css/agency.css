@@ -11,7 +11,7 @@ p {
   line-height: 1.75; }
 
 a {
-  color: #fed136; }
+  color: #e5b01a; }
   a.active, a:active, a:focus, a:hover {
     color: #fec503; }
 
@@ -44,11 +44,11 @@ section {
     padding: 150px 0; } }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #e5b01a;
   text-shadow: none; }
 
 ::selection {
-  background: #fed136;
+  background: #e5b01a;
   text-shadow: none; }
 
 img::selection {
@@ -58,16 +58,19 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #fed136; }
+  -webkit-tap-highlight-color: #e5b01a; }
 
 #registerBtn {
-    background-color: #000;
-    color: #FFF;
+    background-color: #101b3d;
+}
+
+#registerTXT {
+    color: #FFF !important;
 }
 
 #mainNav {
     height: 5em;
-  background-color: #222222; }
+  background-color: #101b3d; }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -75,11 +78,11 @@ body {
     text-transform: uppercase;
     color: white;
     border: 0;
-    background-color: #fed136;
+    background-color: #e5b01a;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   #mainNav .navbar-brand {
-    color: #fed136;
+    color: #e5b01a;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #fec503; }
@@ -92,7 +95,7 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-      color: #fed136; }
+      color: #e5b01a; }
 
 @media (min-width: 992px) {
   #mainNav {
@@ -111,14 +114,18 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; }
     #mainNav.navbar-shrink {
+      
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #222222; }
+      background-color: #101b3d; }
+    #mainNav navbar-shrink .nav-item {
+        color: #FFF;
+    }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; }
     .navbar-brand img{
-        src:url(/img/logos/Thrive_Logo_Grey-02.png)
+        height: 3em;
     }}
 
 header.masthead {
@@ -281,7 +288,7 @@ header.masthead {
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    background-color: #222222; }
+    background-color: #101b3d; }
     .portfolio-modal .close-modal .lr .rl {
       /* Safari and Chrome */
       z-index: 1052;
@@ -291,7 +298,7 @@ header.masthead {
       -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
       transform: rotate(90deg);
-      background-color: #222222; }
+      background-color: #101b3d; }
 
 .portfolio-modal .modal-backdrop {
   display: none;
@@ -346,7 +353,7 @@ header.masthead {
       color: white;
       border: 7px solid #f1f1f1;
       border-radius: 100%;
-      background-color: #fed136; }
+      background-color: #e5b01a; }
       .timeline > li .timeline-image h4 {
         font-size: 10px;
         line-height: 14px;
@@ -446,7 +453,7 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #222222;
+  background-color: #101b3d;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
   background-position: center; }
@@ -462,7 +469,7 @@ section#contact {
     section#contact .form-group textarea.form-control {
       height: 236px; }
   section#contact .form-control:focus {
-    border-color: #fed136;
+    border-color: #e5b01a;
     box-shadow: none; }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
@@ -520,18 +527,18 @@ ul.social-buttons {
     color: white;
     border-radius: 100%;
     outline: none;
-    background-color: #222222; }
+    background-color: #101b3d; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #fed136; }
+      background-color: #e5b01a; }
 
 .text-primary {
-  color: #fed136 !important; }
+  color: #e5b01a !important; }
 
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #e5b01a;
+  background-color: #e5b01a;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
@@ -561,10 +568,10 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #e5b01a;
+    background-color: #e5b01a; }
   .btn-primary .badge {
-    color: #fed136;
+    color: #e5b01a;
     background-color: white; }
 
 .btn-xl {
@@ -573,8 +580,8 @@ ul.social-buttons {
   padding: 20px 40px;
   border-radius: 3px;
   color: white;
-  border-color: #fed136;
-  background-color: #fed136;
+  border-color: #e5b01a;
+  background-color: #e5b01a;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
@@ -604,8 +611,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-xl.focus,
   fieldset[disabled] .btn-xl:focus,
   fieldset[disabled] .btn-xl:hover {
-    border-color: #fed136;
-    background-color: #fed136; }
+    border-color: #e5b01a;
+    background-color: #e5b01a; }
   .btn-xl .badge {
-    color: #fed136;
+    color: #e5b01a;
     background-color: white; }
