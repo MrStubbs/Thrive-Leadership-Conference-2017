@@ -60,12 +60,8 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #e5b01a; }
 
-#registerBtn {
-    background-color: #101b3d;
-}
-
 #registerTXT {
-    color: #FFF !important;
+    text-decoration: underline;
 }
 
 #mainNav {
@@ -123,7 +119,8 @@ body {
     }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
-        padding: 12px 0; }
+        padding: 12px 0; 
+        }
     .navbar-brand img{
         height: 3em;
     }}
