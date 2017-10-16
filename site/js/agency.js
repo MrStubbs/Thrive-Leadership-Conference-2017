@@ -29,11 +29,15 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
+        
       $("#mainNav").addClass("navbar-shrink");
-      $("#logo-img").attr("src", "/img/logos/Thrive_Leaders_Blue.png");
+
+      $("#mainNav .navbar-nav .nav-item .nav-link").css("color", "#FFF");
+        
     } else {
       $("#mainNav").removeClass("navbar-shrink");
-      $("#logo-img").attr("src", "/img/logos/Thrive_Leaders_White.png");
+      $("#mainNav .navbar-nav .nav-item .nav-link").css("color", "#000");
+      
     }
   });
 

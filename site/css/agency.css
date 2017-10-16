@@ -110,7 +110,7 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; }
     #mainNav.navbar-shrink {
-      
+      color: #FFF;
       padding-top: 0;
       padding-bottom: 0;
       background-color: #101b3d; }
