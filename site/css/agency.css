@@ -184,6 +184,22 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+#aboutIMGdiv {
+    float: left;
+    max-width: 50%;
+    flex: none;
+}
+
+#aboutTXTdiv {
+   float: right;
+    max-width: 50%;
+    flex: none;
+}
+
+#aboutIMG {
+    height: 50%;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
