@@ -27,18 +27,16 @@
   });
 
   // Collapse the navbar when page is scrolled
+/*
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
         
-      $("#mainNav").addClass("navbar-shrink");
-
-      $("#mainNav .navbar-nav .nav-item .nav-link").css("color", "#FFF");
-        
+      
     } else {
-      $("#mainNav").removeClass("navbar-shrink");
-      $("#mainNav .navbar-nav .nav-item .nav-link").css("color", "#000");
+     
       
     }
   });
+*/
 
 })(jQuery); // End of use strict
