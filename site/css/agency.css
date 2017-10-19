@@ -548,6 +548,11 @@ footer {
     max-width: none;
     width: auto;
 }
+
+.school-details {
+    text-align: center;
+    color: #FFF;
+}
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
