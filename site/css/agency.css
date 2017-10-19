@@ -520,10 +520,17 @@ section#contact {
   section#contact .text-danger {
     color: #e74c3c; }
 
+#accreditors a{
+    margin-right: 30px;
+    float: right;
+}
+
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center; 
+  background-color: #101b3d;}
   footer span.copyright {
+    color: #FFF;
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
@@ -537,6 +544,10 @@ footer {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
 
+.noFlexZone {
+    max-width: none;
+    width: auto;
+}
 ul.social-buttons {
   margin-bottom: 0; }
   ul.social-buttons li a {
