@@ -189,19 +189,24 @@ header.masthead {
 #aboutIMGdiv {
     float: left;
     max-width: 50%;
-    flex: none;
     
 }
 
 #aboutTXTdiv {
-   float: right;
+   position: relative;
     max-width: 50%;
     flex: none;
     text-align: left;
 }
-
 #aboutIMG {
-    height: 50%;
+    width: 50%;
+    height: auto;
+}
+@media (min-width: 780px){
+    #aboutIMG {
+        width: auto;
+        height: 50%;
+    }
 }
 
 #portfolio .portfolio-item {
