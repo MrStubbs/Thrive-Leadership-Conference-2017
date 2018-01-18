@@ -186,6 +186,10 @@ header.masthead {
   margin: 15px 0;
   text-transform: none; }
 
+#about {
+    padding-bottom: 25px;
+}
+
 #aboutIMGdiv {
     float: left;
     max-width: 50%;
