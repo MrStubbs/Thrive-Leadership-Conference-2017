@@ -534,6 +534,17 @@ section#contact {
     float: right;
 }
 
+#register { 
+    padding: 10px 10px 10px 10px;
+    position: fixed; 
+    bottom: 15px; 
+    right:15px;
+    z-index: 1053;
+    background-color: #31B0D5;
+    border-color: #70a4d8;
+}
+
+
 footer {
   padding: 25px 0;
   text-align: center; 
